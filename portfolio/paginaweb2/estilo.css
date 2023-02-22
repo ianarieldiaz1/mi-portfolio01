@@ -1,0 +1,312 @@
+* {
+    font-family: 'Rowdies', cursive;
+    font-weight: 100;
+    font-size: 17px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:  0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    min-height: 90px;
+    background-color: rgb(69, 33, 127);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    margin-right: 7px;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 22px;
+}
+
+nav a {
+    font-weight: 200px;
+    padding: 6px 6px;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: rgb(90, 240, 240);
+    transition: all 300ms ease;
+}
+
+.box-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: rgb(102, 89, 125);
+}
+
+.box-item a {
+    color: rgb(212, 208, 208);
+}
+
+form {
+    margin: 70px;
+    background-color: rgb(69, 33, 127);
+    border-radius: 10px;
+    padding: 30px 90px;
+    color: white;
+}
+
+form h2 {
+    margin: 0px 0px 30px 10px;
+    font-size: 23px;
+    color: white;
+}
+
+#origen {
+    width: 200px;
+}
+
+#destino {
+    width: 200px;
+}
+
+#ida {
+    width: 140px;
+}
+
+#vuelta {
+    width: 140px;
+}
+
+#pasajeros {
+    width: 50px;
+}
+
+label, input {
+    display: inline-block;
+    margin: 10px;
+}
+
+.submit {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.submit:hover {
+    color: rgb(90, 240, 240);
+    transition: all 300ms ease;
+}
+
+section {
+    margin-left: 50px;
+}
+
+.descubri {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 50px;
+}
+
+.product-container {
+    width: 310px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product-container h1 {
+    margin: auto;
+    font-size: 30px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.product-container h2 {
+    margin: 40px 0px 20px 10px;
+}
+
+.product-container h3 {
+    margin: 20px 0px 20px 10px;
+}
+
+.product-container h4 {
+    margin: 20px 10px;
+}
+
+.button-add {
+    font-size: 13px;
+    color: #f63e4e;
+    padding: 10px 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f63e4e;
+    border-radius: 5px;
+}
+
+.button-add:hover {
+    cursor: pointer;
+    background-color: #f63e4e;
+    color: white;
+}
+
+hr {
+    border: 1px solid rgb(142, 139, 139);
+    margin-top: 20px;
+}
+
+
+.info {
+    text-align: center;
+    color: white;
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(102, 89, 125);
+    padding: 15px 10px;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgb(69, 33, 127);
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    padding: 70px 0px;
+}
+
+.pie-pagina .grupo-1 .box-figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box-figure img {
+    width: 250px;
+}
+
+.grupo-1 {
+    color: white;
+    margin-bottom: 10px; 
+}
+
+.grupo-1 a {
+    color: white;
+    padding-bottom: 10px; 
+}
+
+.grupo-1 a:hover{
+    color: aqua;
+}
+
+.red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.red-social a:hover {
+    color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 30px 0px;
+    }
+
+    form {
+        padding: 20px;
+        text-align: center;
+    }
+
+    form h2 {
+        text-align: center;
+    }
+
+    label, input {
+        display: block;
+        margin: 10px auto;
+      }
+      
+    .submit {
+        display: block;
+        margin: 20px auto;
+    }
+
+    label {
+        text-align: left;
+
+    }
+
+    .descubri {
+        text-align: center;
+    }
+
+    .page-content h1 {
+        text-align: center;
+    }
+
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+    .grupo-1 {
+        text-align: center;
+    }
+
+}

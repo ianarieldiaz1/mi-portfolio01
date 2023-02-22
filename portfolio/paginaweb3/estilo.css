@@ -1,0 +1,99 @@
+* {
+    font-family: 'Rowdies', cursive;
+    font-weight: 100;
+    font-size: 22px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 100%;
+}
+section {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 60px;
+}
+
+.titulo h1 {
+    display: inline-block;   
+    background-color: rgb(0, 0, 0);   
+    color: white;   
+    padding: 20px;
+}
+
+section p {
+    margin: 60px;
+    font-size: 25px;
+}
+
+section .redneuronal1 {
+    width: 1500px;
+}
+
+section .python {
+    width: 200px;
+}
+
+.matriz h2 {      
+    display: inline-block;
+    background-color: rgb(0, 0, 0);        
+    color: white;        
+    padding: 20px;
+    margin: 100px 0px 50px 0px;
+}
+
+.matriz img {
+    width: 1300px;
+}
+
+.redneuronal h3 {
+    display: inline-block;     
+    background-color: rgb(0, 0, 0);             
+    color: white;             
+    padding: 20px;     
+    margin: 80px 0px 50px 0px;
+}
+
+.redneuronal img {
+    width: 1300px;
+}
+
+footer {
+    text-align: center;
+    padding: 13px;
+    background-color: #122232;
+    color: white;
+}
+
+small {
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 1300px) {
+    header h1 {     
+        font-size: 1.5em;     
+        padding: 0.25em 0.5em;   
+    } 
+
+    section .redneuronal1 {     
+        width: 100%; 
+    }
+
+    .matriz img {     
+        width: 100%; 
+    }
+
+    .redneuronal img {     
+        width: 100%; 
+    }
+}

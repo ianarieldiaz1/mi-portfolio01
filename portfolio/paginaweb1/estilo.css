@@ -1,0 +1,371 @@
+* {
+    font-family: 'Rowdies', cursive;
+    font-weight: 100;
+    font-size: 17px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(229, 237, 244);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    min-height: 90px;
+    background-color: rgb(48, 48, 140);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    margin-right: 7px;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 22px;
+}
+
+.btn-whatsapp {
+    margin-right: 10px;
+    background-color: rgb(34, 151, 54);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-calendar {
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-whatsapp:hover {
+    cursor: pointer;
+}
+
+.btn-calendar:hover {
+    cursor: pointer;
+}
+
+
+nav {
+    background-color: #3c6894;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    background-color: #0a1a2a;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+.menu-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    background-color: rgb(48, 48, 140);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 10%;
+    height: 10%;
+    margin: 10px auto;
+}
+
+.menu-icon i {
+    font-size: 22px;
+}
+
+  
+.menu-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: rgb(47, 50, 45);
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: all 0.3s;
+}
+
+  
+input[type="checkbox"]:checked ~ .menu-sidebar {
+    transform: translateX(0);
+}
+  
+.menu-sidebar ul {
+    list-style: none;
+    text-decoration: underline;
+    margin: 50px 10px;
+    padding: 0;
+}
+  
+.menu-sidebar a {
+    display: block;
+    color: #c7c7c7;
+    margin-bottom: 60px;
+    display: block;
+    padding: 7px 1px;
+    font-size: 20px;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.menu-sidebar a:hover {
+    color: #1568bc;
+}
+  
+.menu-sidebar a.close-menu {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+  
+  
+
+.gastritis .titulo-informacion {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.gastritis img {
+    display: flex;
+    height: 500px;
+    margin: auto;
+}
+
+.causas .titulo-causas {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 10px 15px 10px;
+}
+
+.causas-gastritis {
+    font-size: 23px;
+}
+
+.causas-de-la-enfermedad {
+    margin: 20px;
+}
+
+.causas img {
+    display: flex;
+    height: 500px;
+    margin: auto;
+}
+
+.prevencion .titulo-prevencion {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 10px 15px 10px;
+}
+
+.medida-prevencion {
+    font-size: 23px;
+}
+
+.prevenciones {
+    margin: 20px;
+}
+
+.prevencion img {
+    height: 500px;
+    margin: 30px auto;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgb(48, 48, 140);
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box-figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box-figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h3 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social h3 {
+    text-align: left;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(29, 225, 206);
+}
+
+form {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="submit"] {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #2c3034;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 790px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+
+    .logo img {
+        margin: 0px 10px 20px 30px;
+    }
+
+    .btn-whatsapp, .btn-calendar{
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .menu-icon {
+        width: 30%;
+        height: 50px;
+        margin: 10px auto;
+    }
+    .gastritis img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+        text-align: center;
+    }
+
+    .pie-pagina .grupo-1 .red-social h3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+}
+
+

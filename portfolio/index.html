@@ -1,0 +1,191 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head>     
+        <title>Mi Portfolio</title>     
+        <link rel="stylesheet" type="text/css" href="estilo.css">     
+        <link rel="stylesheet" type="text/css" href="normalize.css">     
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">     
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>     
+        <script src="https://kit.fontawesome.com/8e698b69d5.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
+        <script src="scripts.js"></script> 
+    </head> 
+    <body>
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>Mi Portfolio</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#lenguajes" onclick="seleccionar(this)">LENGUAJES</a></li>
+                                <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+                        <div class="redes">
+                            <a href="https://www.facebook.com/ianariel.diaz" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://instagram.com/ian_diazok?igshid=MDM4ZDc5MmU=" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://linkedin.com/in/ian-ariel-diaz-312a041b6" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>Soy <span>Ian Ariel Diaz</span>, Desarrollador web y de Inteligencia Artificial</h2>
+                    <p class="descripcion">Mis habilidades en programacion y los proyectos que he desarrollado los muestro en este Portfolio</p>
+                    <a href="#portfolio">Ir al Portfolio</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="fondo11.jpeg" alt="fondo2">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                    <h2>Hola, soy <span>Ian Ariel Diaz</span></h2>
+                    <h3>Desarrollador web y de Inteligencia Artificial</h3>
+                    <p>Tengo 19 años, Soy un Desarrollador y Programador autodidacta que ha aprendido sobre distintos lenguajes de programación por su cuenta en diferentes cursos y eh llevado siempre a la practica día a día lo que iba aprendiendo hasta el punto de ya crear mis propios proyectos, Soy una persona amable, practica, tranquila y que le gusta siempre aprender algo nuevo dia a dia sobre programación al igual que se trabajar en equipo y soy disciplinado en diferentes actividades.</p>
+                    <p></p>
+                    <a href="MICV.pdf" download>Descargar CV</a>
+            </div>
+        </section>
+
+        <section id="lenguajes">
+            <h3 class="titulo-seccion">Lenguajes que Aprendi y Utilizo</h3>
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <div class="contenedor">
+                <div class="lenguajes1">
+                    <img src="fondo3.png" alt="fondo3">
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="lenguajes1">                     
+                    <img src="fondo4.png" alt="fondo4">                     
+                    <h3>CSS</h3>                 
+                </div>
+
+                <div class="lenguajes1">                                          
+                    <img class="fondo5" src="fondo5.png" alt="fondo5">                                          
+                    <h3>JAVASCRIPT</h3>                                  
+                </div>
+
+                <div class="lenguajes1">                                          
+                    <img class="fondo6" src="fondo6.png" alt="fondo6">                                          
+                    <h3>PYTHON PARA I.A</h3>                                  
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso1"></div>
+                </div>
+            </div>
+
+            <div class="skill">                                                  
+                <div class="info">                                                              
+                     <p><span class="lista"></span>Python<p>                                                               
+                        <span class="porcentaje">60%</span>                                                   
+                </div>                                                  
+                <div class="barra">                                                               
+                        <div id="python" class="barra-progreso2"></div>                                                  
+                </div>                                       
+            </div>
+
+            <div class="skill">                 
+                <div class="info">                     
+                    <p><span class="lista"></span>JavaScript</p>                     
+                    <span class="porcentaje">40%</span>                 
+                </div>                 
+                <div class="barra">                     
+                    <div id="js" class="barra-progreso3"></div>                 
+                </div>             
+            </div>
+            
+        </div>
+
+        <section id="portfolio">
+            <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="../portfolio/paginaweb1/index.html" target="_blank">
+                       <img src="fondo7.png" alt="fondo7">
+                    </a>
+                    <div class="info">
+                        <h4>Clinica Medica</h4>
+                        <p>En esta Clinica se muestra una explicacion sobre Gastritis y como prevenirla</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">                     
+                    <div class="overlay"></div>
+                    <a href="../portfolio/paginaweb2/index.html" target="_blank">                    
+                       <img src="fondo8.png" alt="fondo8">
+                    </a>                 
+                    <div class="info">                         
+                        <h4>Agencia de Viajes</h4>                         
+                        <p>Esta es una agencia de Viajes donde podes seleccionar un Pais para viajar</p>                     
+                    </div>                 
+                </div>
+
+                <div class="proyecto">                                          
+                    <div class="overlay"></div> 
+                    <a href="../portfolio/paginaweb3/index.html" target="_blank">                                        
+                       <img src="fondo9.png" alt="fondo9">
+                    </a>                                      
+                    <div class="info">                                                  
+                        <h4>Algortimo Cardiaco</h4>                                                  
+                        <p>Esta es una IA hecha con redes neuronales que puede saber que persona Si y que persona No sufre una enfermedad cardiaca</p>                                          
+                    </div>                                  
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contactame</h3>
+            <div class="contenedor-form">
+                <form action="formulario.php" method="post">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre" class="input-mitad" name="nombre">
+                        <input type="text" placeholder="Apellido" class="input-mitad" name="apellido">
+                    </div>
+                    <div class="fila">
+                        <input type="email" placeholder="Direccion de email" class="input-full" name="email">
+                    </div>
+                    <div class="fila">
+                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje ..." class="input-full"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <small>&copy; Todos los derechos reservados - 2023</small>
+            <div class="redes">                             
+                <a href="https://www.facebook.com/ianariel.diaz" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/ian_diazok?igshid=MDM4ZDc5MmU=" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/ian-ariel-diaz-312a041b6" target="_blank"><i class="fa fa-linkedin"></i></a>                                                                  
+            </div>
+        </footer>
+    </body>
+    </html>

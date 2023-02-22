@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Clinica de salud Integral</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://kit.fontawesome.com/8e698b69d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="hospital.png" alt="hospital">
+            <h2 class="logo-empresa">Clinica de salud Integral</h2>
+        </a>
+        <div class="container">
+             <button class="btn-whatsapp">
+                 <a class="fa fa-whatsapp" href="https://www.example.com/emergencias"></a>
+                 <span>Emergencias y Urgencias</span>
+             </button>
+             <button class="btn-calendar">
+                 <a class="fa fa-calendar" href="https://www.example.com/emergencias"></a>
+                 <span>Pedir turno</span>
+             </button>
+        </div>
+    </header>
+    <section class="gastritis">
+        <nav>
+            <a href="" class="nav-link">Incio</a>
+            <a href="" class="nav-link">Sobre Nosotros</a>
+            <a href="" class="nav-link">Contacto</a>
+        </nav>
+
+        <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu" class="menu-icon">
+              <i class="fas fa-bars"></i>
+              <span style="margin-left: 5px; font-size: 22px;">Menú</span>
+            </label>
+            <div class="menu-sidebar">
+              <a href="#" class="close-menu" onclick="document.getElementById('toggle-menu').checked = false;">
+                <i class="fa fa-times"></i>
+              </a>
+              <ul>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Especialidades</a></li>
+                <li><a href="#">Horario</a></li>
+                <li><a href="#">Ubicación</a></li>
+              </ul>
+            </div>
+            <div class="overlay"></div>
+
+        
+        <h2 class="titulo-informacion">¿Que es la Gastritis, causas y como prevenirla?</h2>
+        <p>
+            La gastritis es una inflamación de la mucosa gástrica, que es el revestimiento del estómago.<br>
+            Puede ser causada por una variedad de factores, incluyendo la ingesta excesiva de alcohol, el estrés, ciertos medicamentos y una infección por Helicobacter pylori.<br> Los síntomas de la gastritis incluyen dolor abdominal, malestar estomacal, náuseas y vómitos.
+        </p>
+        <img src="gastritis.png" alt="gastritis">
+        <div class="causas">
+            <h2 class="titulo-causas">Causas</h2>
+            <p class="causas-gastritis">
+                Hay muchas causas que pueden contribuir a la aparición de la gastritis, algunas de las más comunes son:
+            </p>
+            <p class="causas-de-la-enfermedad">
+                • Infección por Helicobacter pylori (H. pylori)
+                <br>
+                <br>
+                • Consumo excesivo de alcohol.
+                <br>
+                <br>
+                • Consumo de medicamentos antiinflamatorios no esteroideos (AINEs) por un período prolongado.
+                <br>
+                <br>
+                • Estrés crónico.
+                <br>
+                <br>
+                • Consumo de alimentos picantes o irritantes.
+                <br>
+                <br>
+                • Lesiones gástricas traumáticas.
+                <br>
+                <br>
+                • Desordenes autoinmunitarios.
+                <br>
+                <br>
+                • Afecciones médicas subyacentes, como la anemia por células falciformes.
+                <br>
+            </p>
+            <img src="causas.png" alt="causas">
+        </div>
+        <div class="prevencion">
+            <h2 class="titulo-prevencion">Prevencion</h2>
+            <p class="medida-prevencion">
+                Hay varias medidas que se pueden tomar para prevenir la gastritis, incluyendo:
+            </p>
+            <p class="prevenciones">
+                • Evite el alcohol y los alimentos irritantes.
+                <br>
+                <br>
+                • Coma una dieta equilibrada y evite saltarse comidas.
+                <br>
+                <br>
+                • Evite los medicamentos antiinflamatorios no esteroideos (AINEs) a menos que sean necesarios y sean recetados por un médico.
+                <br>
+                <br>
+                • Mantenga un nivel adecuado de higiene alimentaria.
+                <br>
+                <br>
+                • Evite el estrés y aprenda técnicas efectivas de manejo del estrés.
+                <br>
+                <br>
+                Es importante destacar que cada persona es única y que los factores que contribuyen a la gastritis varían de una persona a otra. <br>
+                Por lo tanto, es importante trabajar con un médico para identificar las causas específicas de la gastritis y desarrollar un plan de prevención adecuado.
+                <br>
+            </p>
+            <img src="prevencion.png" alt="prevencion">
+        </div>
+    </section>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="hospital.png" alt="hospital">
+                </a>
+            </figure>
+            </div>
+            <div class="box">
+                <h3>Informacion adicional de la Clinica</h3>
+                <p>
+                    Misión: Ofrecer atención médica de alta calidad y servicios personalizados para mejorar la salud y el bienestar de nuestros pacientes.
+                    <br>
+                    <br>
+                    Visión: Ser reconocidos como líderes en la atención médica integral y proporcionar un enfoque innovador en la prevención y tratamiento de enfermedades.
+                    <br>
+                    <br>
+                    Equipo médico: Contamos con un equipo altamente capacitado de médicos y profesionales de la salud que brindan atención personalizada y de alta calidad a cada paciente.
+                    <br>
+                    <br>
+                </p>
+            </div>
+            <div class="box">
+                <h3>Escribanos</h3>
+                <form action="">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name">
+                  
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                  
+                    <label for="telephone">Teléfono:</label>
+                    <input type="tel" id="telephone" name="telephone">
+                  
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message"></textarea>
+                  
+                    <input type="submit" value="Enviar">
+                  </form>
+            </div>
+            <div class="box">
+                <div class="red-social">
+                    <h3>Siguenos en nuestras redes</h3>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Clinica de salud integral</b> - Todos los derechos reservados.</small>
+        </div>
+    </footer>
+</body>
+</html>
